@@ -1,0 +1,75 @@
+:root{
+  --slate-900: #1F314F;
+  --slate-500: #68778D;
+  --slate-300: #D5E1EF;
+  --white: #FFFFFF;
+  --title-size: 2.2rem;
+  --text-size:  1.5rem;
+  --big-spacing: 4rem;
+  --medium-spacing: 2.4rem;
+  --small-spacing:  1.6rem; 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: "Outfit", serif;
+}
+
+body{
+  background-color: var(--slate-300);
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+main{
+  display: grid;
+  place-items: center;
+}
+
+.card{
+  width: 28rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--medium-spacing);
+  padding: var(--small-spacing) var(--small-spacing) var(--big-spacing) var(--small-spacing);
+  background-color: var(--white);
+  border-radius: 2rem;
+  box-shadow:  0px 0px 16px 4px rgba(0,0,0,0.32);
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+h1{
+  font-weight: 700;
+  font-size: var(--title-size);
+  color: var(--slate-900);
+  line-height: 120%;
+  text-align: center;
+}
+
+p{
+  font-weight: 400;
+  font-size: var(--text-size);
+  color: var(--slate-900);
+  line-height: 140%;
+  text-align: center;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

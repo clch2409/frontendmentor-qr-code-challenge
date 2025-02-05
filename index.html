@@ -8,80 +8,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./mobile.css" media="(max-width: 560px)">
+  <link rel="stylesheet" href="./style.css">
   <title>Frontend Mentor | QR code component</title>
 
-  <style>
-    :root{
-      --slate-900: #1F314F;
-      --slate-500: #68778D;
-      --slate-300: #D5E1EF;
-      --white: #FFFFFF;
-      --title-size: 2.2rem;
-      --text-size:  1.5rem;
-      --big-spacing: 4rem;
-      --medium-spacing: 2.4rem;
-      --small-spacing:  1.6rem; 
-    }
-
-    *{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html{
-      font-size: 62.5%;
-      font-family: "Outfit", serif;
-    }
-
-    body{
-      background-color: var(--slate-300);
-      width: 100%;
-      height: 100vh;
-    }
-
-    main{
-      display: grid;
-      place-items: center;
-      padding: auto;
-    }
-
-    .card{
-      padding: var(--small-spacing);
-      background-color: var(--white);
-      border-radius: 2rem;
-      box-shadow:  0px 0px 16px 4px rgba(0,0,0,0.32);
-    }
-
-    img{
-      width: 100%;
-      height: 100%;
-      border-radius: 1rem;
-    }
-
-    .card-text h1{
-      font-weight: 700;
-      font-size: var(--title-size);
-      color: var(--slate-900);
-      margin-bottom: var(--small-spacing);
-      text-align: center;
-    }
-
-    
-
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
   <main>
     <div class="card">
       <img src="./images/image-qr-code.png" alt="QR Code of Frontend Mentor">
-      <div class="card-text">
-        <h1>Improve your front-end skills by building projects</h1>
-        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-      </div>
+      <h1>Improve your front-end skills by building projects</h1>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
     </div>
   </main>
 
